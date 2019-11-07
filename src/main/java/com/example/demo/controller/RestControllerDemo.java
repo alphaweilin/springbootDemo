@@ -22,5 +22,10 @@ public class RestControllerDemo {
 	public String index(@PathVariable String name, @PathVariable String age) {
 		return "Hello " + name + ", " + "you are " + age + " years old!";
 	}
+	
+	@RequestMapping("/hello/william")
+	public String helloWilliam() {
+		return "Hello William, you are forever young.";
+	}
 
 }
