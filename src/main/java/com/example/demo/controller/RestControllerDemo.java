@@ -25,7 +25,7 @@ public class RestControllerDemo {
 	
 	@RequestMapping("/hello/william")
 	public String helloWilliam() {
-		return "Hello William, you are forever young.";
+		return "Hello William,  you are forever young!";
 	}
 
 }
